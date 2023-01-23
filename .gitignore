@@ -1,0 +1,10 @@
+# ignore everything:
+/*
+
+# Do not ignore:
+!.gitignore
+!README.md
+!LICENSE
+!compileQUDAninja.sh
+!compileQUDAmake.sh
+
