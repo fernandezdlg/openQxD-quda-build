@@ -14,5 +14,5 @@ cmake ../quda -DCMAKE_BUILD_TYPE=RELEASE -DQUDA_MPI=ON -DQUDA_GPU_ARCH=sm_61 \
     -DQUDA_FAST_COMPILE_DSLASH=ON -DQUDA_FAST_COMPILE_REDUCE=ON \
     -DQUDA_INTERFACE_OPENQCD=ON
 
-# To build (make -j N means to run N jobs in parallel):
+# To build (make -j N means to run N jobs to compile in parallel):
 make -j 12
