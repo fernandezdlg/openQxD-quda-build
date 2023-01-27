@@ -8,7 +8,7 @@ export CXX=g++-9
 export FC=gfortran-9
 
 # Assume we are in a build dir which lies on same level as ./quda/ source code directory
-cmake ../quda -DCMAKE_BUILD_TYPE=RELEASE -DQUDA_MPI=ON -DQUDA_GPU_ARCH=sm_60 \
+cmake ../quda -DCMAKE_BUILD_TYPE=RELEASE -DQUDA_MPI=ON -DQUDA_GPU_ARCH=sm_61 \
     -DQUDA_DIRAC_DEFAULT_OFF=ON -DQUDA_DIRAC_CLOVER=ON -DQUDA_DIRAC_WILSON=ON \
     -DQUDA_PRECISION=12 -DQUDA_RECONSTRUCT=4 \
     -DQUDA_FAST_COMPILE_DSLASH=ON -DQUDA_FAST_COMPILE_REDUCE=ON \
