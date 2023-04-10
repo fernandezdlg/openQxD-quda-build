@@ -7,4 +7,5 @@
 !LICENSE
 !compileQUDAninja.sh
 !compileQUDAmake.sh
+!envVars.sh
 
