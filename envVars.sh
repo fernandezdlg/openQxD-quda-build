@@ -1,6 +1,9 @@
 #!/bin/zsh
 # RUN ONLY ONCE
-# for cmake 3.24
+# if CMake not installed, one can download it here:
+# https://cmake.org/files/v3.24/cmake-3.24.2-linux-x86_64.tar.gz
+# I extract it in my home directory (/home/jfernande/.)
+# for CMake
 export PATH=/home/jfernande/cmake-3.24.2-linux-x86_64/bin:$PATH
 # for nvcc compiler:
 export PATH=$PATH:/usr/local/cuda/bin
