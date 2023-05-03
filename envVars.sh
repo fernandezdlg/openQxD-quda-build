@@ -6,9 +6,9 @@
 # for CMake
 export PATH=/home/jfernande/cmake-3.24.2-linux-x86_64/bin:$PATH
 # for nvcc compiler:
-export PATH=$PATH:/usr/local/cuda/bin
+export PATH=$PATH:/usr/local/cuda-11.6/bin
 # for CUDA:
-export CUDA_HOME=/usr/local/cuda
+export CUDA_HOME=/usr/local/cuda-11.6
 export GCC=mpicc
 export MPI_INCLUDE=/usr/local/include/
 export MPI_HOME=/usr/local/
